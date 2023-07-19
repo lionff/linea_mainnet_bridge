@@ -39,7 +39,7 @@ for wallet_number, PRIVATE_KEY in numbered_keys:
 
     if your_choice == 3:
         amnt = int(w3.eth.get_balance(
-            address) * 0.25)  # Выводим 50% баланса - меняем 0.5 для смены процента. 100% не отправить - комса
+            address) * 0.5)  # Выводим 50% баланса - меняем 0.5 для смены процента. 100% не отправить - комса
 
     value = amnt + _fee
 
